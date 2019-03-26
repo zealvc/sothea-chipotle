@@ -1,0 +1,127 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+}
+
+.header-top-half{
+    width: 100%;
+    background: #451400;
+    box-sizing: border-box;   
+}
+
+.header-top-half-inner{
+    padding: 25px 0 22px;
+    text-align: center;
+    min-height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.header-top-half-heading-h2{
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    color: #fff;
+    margin: 0;
+}
+.header-top-half-flex-container{
+    display: inline-flex;
+}
+
+.header-top-half-drop-down-arrow{
+    background-color: #632d17;
+    border-radius: 50%;
+    border: 1px solid #632d17;
+    cursor: pointer;
+    display: inline-block;
+    height: 31px;
+    width: 31px;
+    margin-left: 20px;
+    outline: 0;
+}
+.header-bottom-half{
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border-bottom: .85px solid #d4cbc7;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.header-bottom-half-left-container{
+    align-items: center;
+    display: flex;
+    float: left;
+}
+
+.ham-burger-icon{
+    width: 25px;
+    height: 25px;
+
+}
+
+.chipotle-logo{
+    height: 50px;
+    margin-left: 12px;
+}
+
+.header-bottom-half-right-container{
+    width: 176px;
+    align-items: center;   
+    float: right;
+    display: flex;
+}
+
+.header-bottom-half-right-img-link{
+    display: inline-flex;
+    padding: 0px 15px 5px 0px;
+    width: 165px;
+    text-decoration: none;
+    background-color: #451400;
+    height: 36px;
+    align-items: center;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: 1.15px;
+    line-height: 1;
+
+}
+
+.header-bottom-half-right-middle-bar{
+    background: #fff;
+    width: 1px;
+    height: 20px;
+    margin-right: 7px;
+
+}
+.header-bottom-half-right-img{
+    height: 26px;
+    margin-right: 3px;
+}
+
+.c1{
+    width: 100%;
+
+}
+
