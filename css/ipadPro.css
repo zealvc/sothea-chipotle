@@ -1,0 +1,54 @@
+@media only screen and (min-width: 992px){
+    
+.header-top-half-heading-h2{
+    font-size: 1.875rem;
+}
+.header-bottom-half-inner{
+    height: 100px;
+    padding: 27px 28px 28px 26px;
+    box-sizing: border-box;
+}
+
+/* ham burger icon */
+.ham-burger-icon{
+    display: none;
+    align-items: center;
+}
+/* chipotle logo */
+.chipotle-logo{
+    width: 80px;
+    height: 80px;
+}
+/* nav item list */
+.nav-list-container{
+    display: flex;
+}
+
+/* right button */
+.header-bottom-half-right-img-link{
+    min-width: 200px;
+    font-size: .825rem;
+    min-height: 40px;
+}
+.header-bottom-half-right-middle-bar{
+    margin-right: 10px;
+}
+
+/* c1 */
+.c1-inner{
+    background: url("../img/Home-Page-Hero-Desktop-White\ Rewardsv2@2x.jpg")center center no-repeat;
+    background-size: cover;
+    height: 679px;
+}
+
+/* button */
+.c1-button-container{
+    padding-top: 570px;
+    font-size: 1.5rem;
+}
+
+/* c2 */
+
+
+}
+

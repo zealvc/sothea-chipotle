@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/desktop.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/phone.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/ipad.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/ipadPro.css" />
 </head>
 <body>
     <header>
@@ -21,21 +23,31 @@
                 
         <!-- bottom half -->
         <div class="header-bottom-half">
-            <div class="header-bottom-half-left-container">
-                <img class="ham-burger-icon" src="img/ham-burger-icon.svg" alt="Hamburger Icon">
-                <a>
-                    <img class="chipotle-logo" src="img/chipotle-logo.svg" alt="chipotle logo">
-                </a>
-            </div>
-            <div class="header-bottom-half-right-container">
-                <div class="header-bottom-half-right-container-inner">
-                    <a class="header-bottom-half-right-img-link" href="#">
-                        <img class="header-bottom-half-right-img" src="https://www.chipotle.com/content/dam/chipotle/global-site-design/en/brand/icons/pepper-small-white@3x.png">
-                        <div class="header-bottom-half-right-middle-bar"></div>
-                        find a chipotle    
+            <div class="header-bottom-half-inner">
+                <div class="header-bottom-half-left-container">
+                    <img class="ham-burger-icon" src="img/ham-burger-icon.svg" alt="Hamburger Icon">
+                    <a>
+                        <img class="chipotle-logo" src="img/chipotle-logo.svg" alt="chipotle logo">
                     </a>
-                </div>            
-            </div>
+                </div>
+                <!-- list -->
+                <div class="nav-list-container">
+                    <a class="nav-list" href="#">order</a>
+                    <a class="nav-list" href="#">catering</a>
+                    <a class="nav-list" href="#">rewards</a>
+                    <a class="nav-list" href="#">our values</a>
+                    <a class="nav-list" href="#">nutrition</a>
+                </div>
+                <div class="header-bottom-half-right-container">
+                    <div class="header-bottom-half-right-container-inner">
+                        <a class="header-bottom-half-right-img-link" href="#">
+                            <img class="header-bottom-half-right-img" src="https://www.chipotle.com/content/dam/chipotle/global-site-design/en/brand/icons/pepper-small-white@3x.png">
+                            <div class="header-bottom-half-right-middle-bar"></div>
+                            find a chipotle    
+                        </a>
+                    </div>            
+                </div>
+            </div>  
         </div>
     </header>
     <!-- container 1: rewards -->
@@ -43,7 +55,7 @@
         <div class="c1-inner">
             <div class="c1-button-container">
                 <a class="c1-button-left" href="#">
-                    start earning
+                    Real Food Is Really Rewarding.
                 </a>
                 <a class="c1-button-right" href="#"> 
                     order now 
@@ -66,8 +78,11 @@
         <div class="c3-flex">
             <!-- card one -->
             <div class="menu-component">
+                <!-- image -->
+                <div class="c3-hero-img-1"></div>
+                <!-- text block -->
                 <div class="c3-text-container">
-                    <h6 class="c3-heading-h6">GO PLANT-POWERED</h6>
+                    <p class="c3-heading">GO PLANT-POWERED</p>
                     <p class="c3-text">Our Vegan Bowl isn't just filled with plant-powered protein, it's filled with braised, non-GMO, organic goodness. Check out all our delicious Lifestyle Bowls.</p>    
                     <div class="c3-link-container">
                         <a class="c3-link" href="#">order now</a>
@@ -76,8 +91,11 @@
             </div>
              <!-- card two -->
              <div class="menu-component">
+                <!-- image -->
+                <div class="c3-hero-img-2"></div>
+                <!-- text block -->
                 <div class="c3-text-container">
-                    <h6 class="c3-heading-h6">FIRST TASTE OF FREE</h6>
+                    <p class="c3-heading">FIRST TASTE OF FREE</p>
                     <p class="c3-text">Join Chipotle Rewards to earn points with every dollar you spend. Get FREE Chips & Guac after your first purchase as a member. Real food is really rewarding.</p>    
                     <div class="c3-link-container">
                         <a class="c3-link" href="#">join now</a>
@@ -100,16 +118,118 @@
                 <p>For Real Food. For Real Actions. For Real Change.</p>
                 <div class="c4-checkout-container">
                     <a class="c4-link" href="#">check out our values</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container 5: gifts and funds -->
+    <!-- because the layout and style are the same as c3, i'm gonna use c3 classes -->
+    <div class="c3">
+        <div class="c3-flex">
+            <!-- card one -->
+            <div class="menu-component">
+                <!-- image -->
+                <div class="c5-hero-img-1">
+                    <div class="c5-heading-container">
+                        <p class="c5-heading" >gifts and gear</p>
+                    </div> 
+                </div>
+                <!-- text block -->
+                <div class="c3-text-container">
+                    <p class="c3-text">Give the people what they want—more Chipotle. Shop our gift cards for any occasion worth celebrating, or pick up some not-edible-but-still-awesome Chipotle swag.</p>    
+                    <div class="c4-link-container">
+                        <a class="c3-link" href="#">shop chipotle</a>
+                    </div>
+                </div>    
+            </div>
+             <!-- card two -->
+             <div class="menu-component">
+                <!-- image -->
+                <div class="c5-hero-img-2">
+                    <div class="c5-heading-container">
+                        <p class="c5-heading" >fundraising<p/>
+                    </div> 
+                </div>
+                <!-- text block -->
+                <div class="c3-text-container">
+                    <p class="c3-text">We do more than just roll burritos. Each of our restaurants is committed to supporting local groups like neighboring schools, youth sports teams and non-profit organzations.</p>    
+                    <div class="c4-link-container">
+                        <a class="c3-link" href="#">get fundraising info</a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+    
+    <!--footer  -->
+    <footer>
+        <!-- find chipotle -->
+        <div class="find-chipotle-container">
+            <div class="find-chipotle">
+                <div class="find-chipotle-flex">
+                    <img class="map" src="img/map@3x.png" alt="map">
+                    <p class="find-chipotle-text"> find a chipotle</p>
+                    <div class="find-chipotle-search-container">
+                        <p class="find-chipotle-search">Enter City, State or Zip Code</p>
+                        <img class="search-icon" src="img/search-gray.svg" alt="search gray Icon">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+       
+        <!-- contact and about info -->
+        <div class="contact-info-container">
+            <div class="contact-info-flex">
+                <!-- contact support, careers, gift cards -->
+                <div class="contact-comp-container">
+                    <p><a class="contact-c1-link" href="#">contact support</a></p>
+                    <p><a class="contact-c1-link" href="#">careers</a> </p>
+                    <p><a class="contact-c1-link" href="#">gift cards</a></p>
+                </div>
+                <div class="contact-comp-container">
+                    <p class="contact-heading">connect with us</p>
+                    <a><img class="social-media-icon" src="img/facebook.png" alt="facebook logo"></a>
+                    <a><img class="social-media-icon" src="img/insta.png" alt="instagram logo"></a>
+                    <a><img class="social-media-icon" src="img/twitter.png" alt="twitter logo"></a>
+                </div>
+                <!-- download app -->
+                <div class="contact-comp-container">
+                    <p class="contact-heading">download our app</p>
+                    <a> <img class="download-app-pic" src="img/apple-store.png" alt="appe store link"></a>
+                    <a> <img class="download-app-pic" src="img/google-play.png" alt="google play store link"></a>
+                </div>
+                <!-- about us -->
+                <div class="contact-comp-container">
+                    <p class="contact-heading">about</p>
+                    <div class="about-us-flex">
+                        <a class="about-us-comp">Our Values</a>
+                        <a class="about-us-comp">News and Events</a>
+                        <a class="about-us-comp">Investors</a>
+                        <a class="about-us-comp">Cultivate Foundation</a>
+                        <a class="about-us-comp">Pizzaria Locale</a>
+                        <a class="about-us-comp">All Locations</a>
+                        <a class="about-us-comp">Sustainability</a>
+                    </div>
+                </div>
+                <!-- credit -->
+                <div class="contact-credit-container">
+                    <div class="credit-heading-container">
+                        <a class="credit-heading" href="#">California Transparency in Supply Chains Act </a>
+                    </div>
+                    <div class="credit-link-container">
+                        <a class="credit-link" href="#">Terms of use</a>
+                        <a class="credit-link" href="#">accessibility statement</a>
+                        <a class="credit-link" href="#">privacy policy</a>
+                        <a class="credit-link" href="#">© 2019 Chipotle Mexican Grill </a>
+
+                    </div>
+
 
                 </div>
             </div>
-           
-
-
-
         </div>
 
-    </div>
-
+    </footer>
 </body>
 </html>

@@ -1,0 +1,64 @@
+@media only screen and (min-width: 768px){
+
+    .c1-button-left{
+        width: auto;
+    }
+    .c1-button-right{
+        width: auto;
+    }
+
+    /* nav item list */
+    .nav-list-flex{
+        display: none;
+    }
+
+    /* cotainer 3 */
+    .c3-flex{
+        display: flex;
+    }
+    /* menu card component */
+    .menu-component{
+        margin: 0px 30px 30px;
+        width: 50%;
+    }
+    /* menu card's link */
+    .c3-link-container{
+        margin-top: 155px;
+    }
+    /* chicken bowl */
+    .c4-img-top{
+        max-height: 424px;
+    }
+    /* guacomole heading */
+    .c4-heading-h1{
+        font-size: 4rem;  
+    }
+    /* find chipotle */
+    .find-chipotle{
+        margin: 0 24px;
+        box-sizing: border-box;
+    }
+    .contact-info-flex{
+        margin: 0 24px;
+    }
+
+    .find-chipotle-flex{
+        flex-direction: row;
+        align-items: center;
+    }
+    .map{
+        display: block;
+    }
+    .find-chipotle-text{
+        padding: 0 32px 0 22px;
+    }
+    .find-chipotle-search-container{
+        margin: 0;
+    }
+    .find-chipotle-text{
+        font-size: 1rem;
+    }
+
+
+    
+}
